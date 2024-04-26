@@ -1,0 +1,7 @@
+C:\Users\sebas\source\repos\AdmCondominioBack\obj\Debug\net6.0\AdmCondominioBack.csproj.AssemblyReference.cache
+C:\Users\sebas\source\repos\AdmCondominioBack\obj\Debug\net6.0\AdmCondominioBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\source\repos\AdmCondominioBack\obj\Debug\net6.0\AdmCondominioBack.AssemblyInfoInputs.cache
+C:\Users\sebas\source\repos\AdmCondominioBack\obj\Debug\net6.0\AdmCondominioBack.AssemblyInfo.cs
+C:\Users\sebas\source\repos\AdmCondominioBack\obj\Debug\net6.0\AdmCondominioBack.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\AdmCondominioBack\obj\Debug\net6.0\AdmCondominioBack.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sebas\source\repos\AdmCondominioBack\obj\Debug\net6.0\AdmCondominioBack.MvcApplicationPartsAssemblyInfo.cache
