@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using AdmCondominioBack.Data;
+using AdmCondominioBack.Data.Models;
 
 namespace AdmCondominioBack.Data.Context
 {
@@ -20,19 +21,8 @@ namespace AdmCondominioBack.Data.Context
         {
         }
 
-        public virtual DbSet<Categoria> Categorias { get; set; }
-        public virtual DbSet<CodigosPostale> CodigosPostales { get; set; }
-        public virtual DbSet<Direccione> Direcciones { get; set; }
-        public virtual DbSet<Estado> Estados { get; set; }
-        public virtual DbSet<Municipio> Municipios { get; set; }
-        public virtual DbSet<Ocasione> Ocasiones { get; set; }
-        public virtual DbSet<Producto> Productos { get; set; }
-        public virtual DbSet<ProductoOcasione> ProductoOcasiones { get; set; }
-        public virtual DbSet<Proveedor> Proveedors { get; set; }
-        public virtual DbSet<Rol> Rols { get; set; }
-        public virtual DbSet<Sucursale> Sucursales { get; set; }
-        public virtual DbSet<Usuario> Usuarios { get; set; }
-        public virtual DbSet<UsuarioRol> UsuarioRols { get; set; }
+        public virtual DbSet<CasaDTO> Categorias { get; set; }
+        public virtual DbSet<JefeHogarDTO> CodigosPostales { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
