@@ -26,7 +26,7 @@ namespace AdmCondominioBack.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Categoria>(entity =>
+            /*modelBuilder.Entity<Categoria>(entity =>
             {
                 entity.Property(e => e.Descripcion)
                     .IsRequired()
@@ -219,7 +219,7 @@ namespace AdmCondominioBack.Data.Context
                     .HasForeignKey(d => d.IdUsuario)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_UsuarioRoles_Usuarios");
-            });
+            });*/
 
             OnModelCreatingPartial(modelBuilder);
         }

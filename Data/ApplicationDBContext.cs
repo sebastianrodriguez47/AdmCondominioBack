@@ -8,6 +8,7 @@ namespace AdmCondominioBack.Data
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options): base(options) 
         {     
         }   
-        public virtual DbSet<CasaDTO> Casas {  get; set; } 
+        public virtual DbSet<CasaDTO> Casas {  get; set; }
+        public virtual DbSet<JefeHogarDTO> JefeHogars { get; set; }
     }
 }

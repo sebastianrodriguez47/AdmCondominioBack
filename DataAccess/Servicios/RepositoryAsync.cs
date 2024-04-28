@@ -1,4 +1,5 @@
-﻿using AdmCondominioBack.Data.Context;
+﻿using AdmCondominioBack.Data;
+using AdmCondominioBack.Data.Context;
 using AdmCondominioBack.DataAccess.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,9 +7,9 @@ namespace AdmCondominioBack.DataAccess.Servicios
 {
     public class RepositoryAsync<T> : IRepositoryAsync<T> where T : class
     {
-        private readonly PvContext context;
+        private readonly ApplicationDBContext context;
 
-        public RepositoryAsync(PvContext context)
+        public RepositoryAsync(ApplicationDBContext context)
         {
             this.context = context;
         }
